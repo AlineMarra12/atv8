@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<head>
+<body>
+    <script>
+        const primeiro = prompt("Digite o primeiro numero")
+        const o = prompt ("Digite a operaçao que deseja realizar (+,-,*,/)")
+        const segundo  = prompt ("Digite o segundo numero")
+        let res
+
+        p = parseInt(primeiro);
+        s = parseInt(segundo);
+        
+        switch (o) {
+            case '+':
+                res = p + s
+                break;
+            case '-':
+                res = p - s
+                break;
+            case '*':
+                res= p * s
+                break;
+            case '/':
+                res= p / s;
+                break;
+            default:
+                res= "Operação invalida"
+                
+                break;
+        }  
+
+        alert(res)
+
+    </script>
+</body>
+</head>
+</html>

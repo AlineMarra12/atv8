@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<head>
+<body>
+    <script>
+        const saldo= prompt ("Digite seu saldo bancario atual");
+        const Valor = prompt ("digite o valor da compra que este deseja realizar.")
+        let saldofinal
+        saldofinal= saldo - Valor
+        if (Valor>saldo) {
+            alert ('Voce nao tem verba suficiente para executar a compra');
+           } 
+         else if (Valor<=saldo){
+            alert (`Sua compra foi efetivada, Agora voce tem ${saldofinal}R$`)
+        }
+
+
+        
+    </script>
+</body>
+</head>
+</html>
